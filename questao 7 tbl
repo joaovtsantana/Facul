@@ -1,0 +1,1 @@
+Tipos de valor armazenam o dado direto e cada variável é independente, como int a = 10; int b = a;. Tipos de referência armazenam o endereço de um objeto, permitindo que várias variáveis apontem para o mesmo objeto, como int[] nums1 = {1,2}; int[] nums2 = nums1;.
