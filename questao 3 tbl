@@ -1,0 +1,11 @@
+using System;
+class Program
+{
+    static void Main()
+    {
+        double numero = 12.3;
+
+        int numero1 = (int)numero;
+        Console.WriteLine(numero1);
+    }
+}
