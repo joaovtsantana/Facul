@@ -1,0 +1,8 @@
+1. São iguais em tipo de caracter(string), e comparando com o texto interno também são iguais
+2. False por que sao dois objetos diferentes
+
+Saída:
+True
+True
+True
+False
