@@ -1,0 +1,13 @@
+using System;
+
+class variavel
+{
+static void Main()
+{
+int idade = 20;
+int idade1 = idade;
+idade1 = 20;
+Console.WriteLine(idade);
+Console.WriteLine(idade1);
+}
+}
