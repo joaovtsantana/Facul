@@ -1,0 +1,21 @@
+using System;
+
+class Programa
+{
+    static void Main()
+    {
+        Console.Write("Digite um número: ");
+        string entrada = Console.ReadLine();
+
+        int numero;
+
+        if (int.TryParse(entrada, out numero))
+        {
+            Console.WriteLine("Número digitado: " + numero);
+        }
+        else
+        {
+            Console.WriteLine("Entrada inválida. Digite um número válido.");
+        }
+    }
+}
